@@ -11,6 +11,7 @@ target-version = ['py311']
 
 [tool.pytest.ini_options]
 addopts = "-ra --cov"
+pythonpath = ["."]
 
 [tool.coverage.report]
 show_missing = true
