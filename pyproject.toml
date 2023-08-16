@@ -1,0 +1,10 @@
+[tool.ruff]
+line-length = 300
+select = ["E", "F", "I", "UP"]
+target-version = "py311"
+ignore = ["D203"]
+show-source = true
+
+[tool.black]
+line-length = 300
+target-version = ['py311']

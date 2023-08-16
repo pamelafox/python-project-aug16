@@ -1,11 +1,12 @@
 import copy
 
-import numpy
 import cv2
-from skimage import io
-import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
+import matplotlib.pyplot as plt
+import numpy
+from skimage import io
 
+sum = 2
 
 def get_image_pixels(image_url):
     """Returns a nested list of the pixels for the image located at image_url"""
