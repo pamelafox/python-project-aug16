@@ -8,3 +8,9 @@ show-source = true
 [tool.black]
 line-length = 300
 target-version = ['py311']
+
+[tool.pytest.ini_options]
+addopts = "-ra --cov"
+
+[tool.coverage.report]
+show_missing = true
