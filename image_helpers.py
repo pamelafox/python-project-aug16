@@ -8,6 +8,7 @@ from skimage import io
 
 sum = 2
 
+
 def get_image_pixels(image_url):
     """Returns a nested list of the pixels for the image located at image_url"""
     # Fetch the image
